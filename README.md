@@ -4,6 +4,7 @@
 <H3>DATE:17.04.2024</H3>
 <H1 ALIGN =CENTER>Heart attack prediction using MLP</H1>
 <H3>Aim:</H3>  To construct a  Multi-Layer Perceptron to predict heart attack using Python
+
 <H3>Algorithm:</H3>
 Step 1:Import the required libraries: numpy, pandas, MLPClassifier, train_test_split, StandardScaler, accuracy_score, and matplotlib.pyplot.<BR>
 Step 2:Load the heart disease dataset from a file using pd.read_csv().<BR>
@@ -18,6 +19,7 @@ Step 10:Print the accuracy of the model.<BR>
 Step 11:Plot the error convergence during training using plt.plot() and plt.show().<BR>
 
 <H3>Program: </H3>
+```
 import numpy as np
 import pandas as pd
 from sklearn.neural_network import MLPClassifier
@@ -66,13 +68,13 @@ print("\nConfusion Matrix:")
 print(conf_matrix)
 print("\nClassification Report:")
 print(classification_rep)
-
+```
 <H3>Output:</H3>
 
 ![image](https://github.com/MeethaPrabhu/EX-6-NN/assets/119401038/111be7ae-febb-4848-8cd9-32308c5a319c)
 
 
 ![image](https://github.com/MeethaPrabhu/EX-6-NN/assets/119401038/6102090d-629a-4366-94f1-aaccf237fbc9)
-
+```
 <H3>Results:</H3>
 Thus, an ANN with MLP is constructed and trained to predict the heart attack using python.
