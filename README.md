@@ -69,7 +69,9 @@ print(classification_rep)
 ```
 ```
 <H3>Output:</H3>
-![image](https://github.com/MeethaPrabhu/EX-6-NN/assets/119401038/18a93480-a206-40fc-b384-de132c2e3754)
+
+![image](https://github.com/MeethaPrabhu/EX-6-NN/assets/119401038/111be7ae-febb-4848-8cd9-32308c5a319c)
+
 
 ![image](https://github.com/MeethaPrabhu/EX-6-NN/assets/119401038/6102090d-629a-4366-94f1-aaccf237fbc9)
 
