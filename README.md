@@ -19,7 +19,8 @@ Step 10:Print the accuracy of the model.<BR>
 Step 11:Plot the error convergence during training using plt.plot() and plt.show().<BR>
 
 <H3>Program: </H3>
-```
+
+```python
 import numpy as np
 import pandas as pd
 from sklearn.neural_network import MLPClassifier
@@ -34,7 +35,6 @@ data = pd.read_csv('heart.csv')
 # Separate features and labels
 X = data.iloc[:, :-1].values  # Features
 y = data.iloc[:, -1].values   # Labels
-
 
 # Split the dataset into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -68,6 +68,7 @@ print("\nConfusion Matrix:")
 print(conf_matrix)
 print("\nClassification Report:")
 print(classification_rep)
+
 ```
 <H3>Output:</H3>
 
