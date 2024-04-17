@@ -1,4 +1,4 @@
-3>MEETHA PRABHU</H3>
+<H3>MEETHA PRABHU</H3>
 <H3>212222240065.</H3>
 <H3>EX. NO.6</H3>
 <H3>DATE:17.04.2024</H3>
@@ -18,8 +18,7 @@ Step 10:Print the accuracy of the model.<BR>
 Step 11:Plot the error convergence during training using plt.plot() and plt.show().<BR>
 
 <H3>Program: </H3>
-  ```python
-  import numpy as np
+import numpy as np
 import pandas as pd
 from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import train_test_split
@@ -67,7 +66,7 @@ print("\nConfusion Matrix:")
 print(conf_matrix)
 print("\nClassification Report:")
 print(classification_rep)
-```
+
 <H3>Output:</H3>
 
 ![image](https://github.com/MeethaPrabhu/EX-6-NN/assets/119401038/111be7ae-febb-4848-8cd9-32308c5a319c)
